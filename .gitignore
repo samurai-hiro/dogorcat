@@ -2,12 +2,14 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pot
 
 # Django
 db.sqlite3
 .env
 .env.*
 staticfiles/
+local_settings.py
 
 # Logs
 *.log
@@ -16,5 +18,3 @@ staticfiles/
 Thumbs.db
 .DS_Store
 
-# pth
-cnn_dogcat_weights.pth
