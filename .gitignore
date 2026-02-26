@@ -17,4 +17,4 @@ local_settings.py
 # OS
 Thumbs.db
 .DS_Store
-
+media
