@@ -1,0 +1,1 @@
+web: gunicorn --workers=1 --worker-class=sync dogorcat.wsgi --timeout 300 --log-file -
