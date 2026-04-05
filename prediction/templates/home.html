@@ -6,6 +6,7 @@
 </head>
 <body>
 <h2>犬、猫の画像判定をします</h2>
+<p style="color: red; font-size: 0.9em;">※犬、猫、以外の画像は判定対象外です。</p>
   <form method="post" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.as_p }}

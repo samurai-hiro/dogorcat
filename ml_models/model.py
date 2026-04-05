@@ -21,7 +21,7 @@ class CNN(nn.Module):
         #サイズを1*1にする
         self.avgpool = nn.AdaptiveAvgPool2d((1,1))
 
-        #全結合層の設定(サイズ32がMaxPool2dを経て、サイズ8になっている)
+        #全結合層の設定(サイズ32がMaxPool2dを経て、サイズ4になっている)
         # self.classifier = nn.Linear(in_features=8 * 8 * 128,out_features=num_classes)
         self.classifier = nn.Sequential(
             nn.Linear(in_features=128,out_features=num_classes)
